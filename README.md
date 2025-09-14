@@ -1,73 +1,38 @@
-# Welcome to your Lovable project
+# AI Powered Idea Mapping and Brainstorming Tool (Concept Cloud AI)
 
-## Project info
+An AI-driven web application designed to help individuals and teams generate, organize, and visualize ideas through interactive mind maps. The tool enhances creativity with AI suggestions, supports real-time collaboration, and allows exporting/sharing of mind maps.
 
-**URL**: https://lovable.dev/projects/e8679fd5-0cc8-4485-bd99-c0232d5d569e
+## 🚀 Features (Prototype)
 
-## How can I edit this code?
+Interactive Mind Mapping – create and organize nodes visually.
 
-There are several ways of editing your application.
+AI-Driven Idea Suggestions – smart prompts for related concepts.
 
-**Use Lovable**
+Collaboration Ready – structure prepared for multi-user sessions.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e8679fd5-0cc8-4485-bd99-c0232d5d569e) and start prompting.
+Customizable Templates – choose layouts for different brainstorming use-cases.
 
-Changes made via Lovable will be committed automatically to this repo.
+Export Options – save mind maps for later reference (planned).
 
-**Use your preferred IDE**
+## 🛠 Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Frontend: React (generated via Lovable.dev
+)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Backend (Planned): Node.js + Express.js
 
-Follow these steps:
+Database (Planned): MongoDB
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+AI Integration (Planned): NLP models (TensorFlow.js / PyTorch)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Real-Time Collaboration (Planned): WebSockets (Socket.io)
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📌 Next Steps
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Backend integration (Node.js, Express, MongoDB).
 
-**Edit a file directly in GitHub**
+AI Suggestion Service (text-based idea recommendations).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Real-time collaboration via WebSockets.
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e8679fd5-0cc8-4485-bd99-c0232d5d569e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Export (PDF/PNG) and share features.
