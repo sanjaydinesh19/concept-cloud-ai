@@ -2,41 +2,78 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* AI Mind Mapping Design System - Modern Productivity Focus */
 
 @layer base {
   :root {
+    /* Core background and text colors */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 230 15% 15%;
 
+    /* Surface colors */
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 230 15% 15%;
+    --surface: 220 10% 98%;
+    --surface-foreground: 230 15% 15%;
 
+    /* Popover colors */
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 230 15% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Brand primary - Deep creative blue */
+    --primary: 235 65% 25%;
+    --primary-foreground: 0 0% 98%;
+    --primary-glow: 235 65% 45%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Soft purple for creativity */
+    --secondary: 260 15% 95%;
+    --secondary-foreground: 235 65% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted backgrounds */
+    --muted: 220 15% 96%;
+    --muted-foreground: 230 10% 50%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent - Vibrant coral for energy */
+    --accent: 14 85% 60%;
+    --accent-foreground: 0 0% 98%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* AI colors - Cyan for intelligence */
+    --ai-primary: 185 75% 45%;
+    --ai-secondary: 185 65% 85%;
+    --ai-glow: 185 75% 65%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Success and status */
+    --success: 145 65% 45%;
+    --success-foreground: 0 0% 98%;
+    --warning: 45 85% 55%;
+    --warning-foreground: 0 0% 15%;
 
-    --radius: 0.5rem;
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 98%;
+
+    /* Borders and inputs */
+    --border: 220 15% 88%;
+    --input: 220 15% 92%;
+    --ring: 235 65% 45%;
+
+    /* Gradients for beautiful effects */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-ai: linear-gradient(135deg, hsl(var(--ai-primary)), hsl(var(--ai-glow)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(45 85% 65%));
+    --gradient-surface: linear-gradient(180deg, hsl(var(--surface)), hsl(220 10% 96%));
+
+    /* Shadows for depth */
+    --shadow-sm: 0 2px 4px hsl(235 65% 25% / 0.05);
+    --shadow-md: 0 4px 12px hsl(235 65% 25% / 0.1);
+    --shadow-lg: 0 8px 24px hsl(235 65% 25% / 0.12);
+    --shadow-glow: 0 0 20px hsl(var(--primary-glow) / 0.3);
+    --shadow-ai: 0 0 20px hsl(var(--ai-glow) / 0.25);
+
+    /* Animation easing */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
